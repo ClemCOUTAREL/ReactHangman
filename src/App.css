@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: greenyellow;
+  border-bottom: green solid 1px;
+  box-shadow: 0 0 5px 5px grey;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.guess-intro {
+  text-align: center;
+  margin: 30px;
+}
+
+.guess-intro h2 {
+  font-size: 1.3em;
+}
+
+.guess-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  height: 60px;
+}
+
+.guess-letter-revealed {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.guess-letter-hidden {
+  font-size: 1.5em;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  color: green;
+  background-color: green;
+}
+
+.guesses {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.guesses-revealed {
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guesses-hidden {
+  display: none;
+}
+
+.state-hidden {
+  display: none;
+}
+
+.state-revealed {
+  display: block;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyboard-hidden {
+  display: none;
+}
+
+.keyboard-btn {
+  width: 30px;
+  height: 30px;
+  background-color: greenyellow;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  margin: 5px;
+}
